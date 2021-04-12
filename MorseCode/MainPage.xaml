@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MorseCode.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+
+        <Button Text="Dot" Clicked="Dot_Clicked" ></Button>
+
+        <Button Text="Dash" Clicked="Dash_Clicked" ></Button>
+
+        <Button Text="Space" Clicked="Space_Clicked" ></Button>
+
+        <Label x:Name="DotsAndDashes" Text="DotsAndDashes" />
+
+        <Label x:Name="LettersAndWords" Text="LettersAndWords"/>
+
+
+    </StackLayout>
+
+</ContentPage>
